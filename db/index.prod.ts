@@ -17,7 +17,7 @@ export function getDb(env?: any) {
 
   if (!dbBinding) {
     throw new Error(
-      "DB binding not found. Ensure 'DB' is bound in wrangler.toml and passed to getDb()."
+      "DB binding not found. Ensure 'DB' is bound in wrangler.toml and passed to getDb().",
     );
   }
   return drizzle(dbBinding, { schema });

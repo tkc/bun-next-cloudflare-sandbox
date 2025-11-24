@@ -1,9 +1,9 @@
-import { beforeEach, describe, expect, it } from "bun:test";
-import { todos } from "@/db/schema";
 import { Database } from "bun:sqlite";
+import { beforeEach, describe, expect, it } from "bun:test";
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/bun-sqlite";
 import { migrate } from "drizzle-orm/bun-sqlite/migrator";
+import { todos } from "@/db/schema";
 
 describe("Local DB Tests", () => {
   let sqlite: Database;

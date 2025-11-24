@@ -6,16 +6,16 @@
 
 このプロジェクトは以下の環境とツールで構成されています。
 
-| 項目 | 詳細 |
-| --- | --- |
-| **OS** | macOS |
-| **Runtime (Local)** | Bun |
-| **Runtime (Prod)** | Cloudflare Workers (workerd) |
-| **Framework** | Next.js 16 (App Router) |
-| **Adapter** | @opennextjs/cloudflare |
-| **Database** | Drizzle ORM (Local: better-sqlite3, Prod: Cloudflare D1) |
-| **Linter/Formatter** | Biome |
-| **Package Manager** | Bun |
+| 項目                 | 詳細                                                     |
+| -------------------- | -------------------------------------------------------- |
+| **OS**               | macOS                                                    |
+| **Runtime (Local)**  | Bun                                                      |
+| **Runtime (Prod)**   | Cloudflare Workers (workerd)                             |
+| **Framework**        | Next.js 16 (App Router)                                  |
+| **Adapter**          | @opennextjs/cloudflare                                   |
+| **Database**         | Drizzle ORM (Local: better-sqlite3, Prod: Cloudflare D1) |
+| **Linter/Formatter** | Biome                                                    |
+| **Package Manager**  | Bun                                                      |
 
 ## 前提条件
 
