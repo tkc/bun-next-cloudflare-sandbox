@@ -52,11 +52,11 @@ export async function getTodos() {
 
 ## 推奨ワークフロー
 
-| フェーズ                  | コマンド                                                   | ランタイム | データベース                |
-| ------------------------- | ---------------------------------------------------------- | ---------- | --------------------------- |
-| **ローカル開発 (高速)**   | `bun run dev`                                              | Node.js    | `better-sqlite3`            |
-| **Worker プレビュー**     | `bun run dev:worker`                                       | Workerd    | Cloudflare D1 (ローカル)    |
-| **本番ビルド & デプロイ** | `bun run deploy`                                           | Workerd    | Cloudflare D1               |
+| フェーズ                  | コマンド             | ランタイム | データベース             |
+| ------------------------- | -------------------- | ---------- | ------------------------ |
+| **ローカル開発 (高速)**   | `bun run dev`        | Node.js    | `better-sqlite3`         |
+| **Worker プレビュー**     | `bun run dev:worker` | Workerd    | Cloudflare D1 (ローカル) |
+| **本番ビルド & デプロイ** | `bun run deploy`     | Workerd    | Cloudflare D1            |
 
 ## 参考リンク
 
@@ -66,4 +66,3 @@ export async function getTodos() {
 ---
 
 このドキュメントは、**ローカル開発と本番デプロイの両方をスムーズに行うための設計指針** を示しています。上記手順に従って、開発・テスト・デプロイを行ってください。
-
